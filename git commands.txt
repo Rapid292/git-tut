@@ -9,6 +9,8 @@ git log(to know the changes, by user and all)
 git remote remove origin
 Hello
 How to right commit messages:
+git push -u origin master
+git pull -u origin master
 
 
 
