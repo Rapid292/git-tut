@@ -5,4 +5,4 @@ git add . (to stage all files)
 git commit -m "message"
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
-git log(to know the changes and all)
+git log(to know the changes and by user and all)
