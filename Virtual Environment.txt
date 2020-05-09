@@ -1,0 +1,32 @@
+pip list(List of packages installed)
+python -m venv project_env (or blog_env i.e. project name_env)
+project_env\Scripts\activate.bat (Activating V_Env)
+where python (where are you right now)
+cls(to clear screen)
+pip install package_name(to install packages in V_Env)
+pip freeze(to export these packages of V_Env:
+	1. create a "requirement.txt" file
+	2. copy and paste those packages with versions into 
+	   requirement.txt manually
+deactivate (to deactivating the V_Env)
+rmdir project_env/s(to delete the V_Env)
+
+
+
+```Always create a V_Env inside the project directory:```
+
+mkdir my_project   (to create a directory by name "my_project")
+python -m venv my_project\venv  (here the name V_Env is 'venv')
+my_project\venv\Scripts\activate.bat ( Activated - venv)
+pip install -r requirements.txt  (to install the same packages as of earlier V_env)
+pip list
+python -m venv venv --system-site-packages(to get access to global or system python packages)
+venv\Scripts\activate.bat(to activate the glibal packages)
+pip list
+pip list --local(to see locally installed packages)
+pip freeze --local
+```Never put your project files in your V_env```
+deactivate (to deactivating the V_Env)
+rmdir project_env/s(to delete the V_Env)
+
+
